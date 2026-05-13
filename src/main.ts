@@ -45,7 +45,7 @@ async function bootstrap() {
 
     createProxyMiddleware({
       target:
-        'http://alquiler-vehiculos:3001',
+        'http://vehiculos:3001',
 
       changeOrigin: true,
     }),
@@ -57,7 +57,7 @@ async function bootstrap() {
 
     createProxyMiddleware({
       target:
-        'http://alquiler-operaciones:3000',
+        'http://operaciones:3000',
 
       changeOrigin: true,
     }),
